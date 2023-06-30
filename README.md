@@ -11,7 +11,7 @@
 - [Crowd_Counting](#crowd_counting)
 - [Contents](#contents)
 - [Papers](#papers)
-- [Publications](#publications)
+- [Ideas](#ideas)
 - [Contributing \& Contact](#contributing--contact)
 
 # Papers
@@ -66,3 +66,17 @@
 - **Joint CNN and Transformer Network via weakly supervised Learning for efficient crowd counting** [[arXiv 2022](https://arxiv.org/pdf/2203.06388.pdf)] [[Code]()]
 - **An End-to-End Transformer Model for Crowd Localization** [[ECCV 2022](https://arxiv.org/pdf/2202.13065.pdf)] [[Code](https://github.com/dk-liang/CLTR)]
 - **Congested Crowd Instance Localization with Dilated Convolutional Swin Transformer** [[Neurocomputing（2区） 2022](https://www.sciencedirect.com/science/article/abs/pii/S0925231222012061)] [[Code]()]
+
+# Ideas
+当前的想法是，以CCTrans的模型为基础，毕竟这个是那一年的第一名，模型的修改可能会借鉴decoder的想法，引入金字塔模型，分层的去处理encoder的输出，处理的方式会使用空洞卷积；
+
+损失函数会替换成非平衡的最优传输损失，另外我想试一下视觉定位任务的损失，能不能提升模型预测准确度。
+
+# Contributing & Contact
+您可以随时为我们的仓库贡献您的改进策略。
+
+- 如果您想 *修改错误* ，请直接进行修改；
+- 如果您想 *增加/更新* ，请遵循现有格式；
+- 如果您有 *任何问题或建议* ，请通过电子邮件与我们联系（2257611653@qq.com）。
+
+感谢您的支持！
